@@ -1,10 +1,10 @@
 "use strict";
-
+/*
 // Create some const variables
 const favoriteBook = "To Kill a Mockingbird";
 console.log(favoriteBook); // Output: To Kill a Mockingbird
 
-// Trying to reassign a new value to the constant variable (will cause an error)
+// Trying to reassign a new value to the constant variable (will cause an error);
 try {
     favoriteBook = "1984";
 } catch (error) {
@@ -27,17 +27,4 @@ console.log(currentMood); // Output: happy
 currentMood = "excited";
 console.log(currentMood); // Output: excited
 
-// Commenting out the code using multi-line comments
-/*
-const one = 1;
-console.log(one);
-
-let bestFriend = "Joe";
-console.log(bestFriend);
-
-bestFriend = "Susan";
-console.log(bestFriend);
 */
-
-// Single-line comments
-// console.log("This line is commented out and won't be executed.");
