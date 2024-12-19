@@ -2,40 +2,39 @@
 
 // Declaring constant variables to store references to the elements
 // that will be updated by your code.
-const bookAnswerEl = document.getElementById("book-answer")
-const activityAnswerEl = document.getElementById("activity-answer")
-const submissionBtn = document.getElementById("submission-btn")
+const yearElement = document.getElementById("year-answer"); 
+const resolutionElement = document.getElementById("resolution-answer"); 
+const willMeetResolutionElement = document.getElementById("willMeet-resolution-answer");
 
+// Declare a constant variable here.
+const resolution = "read more";
+const currentYear = 2025;
 
-// Declare a constant variable named "book" and assign
-// the name of your favorite book to that variable.
+let willmeetResolution = true;
 
-
-// Declare a mutable variable named "activity" and assign
-// an activity to it.
-
-
-
-function updateBookSentence() {
-    // Sets the text inside the element with the id of book answer. 
-    // innerText is one of many properties on a HTML element.
-    bookAnswerEl.innerText = book
+function updateYear () {
+    // Update this function
+    yearElement.innerText = currentYear;
 }
 
-function updateActivitySentence() {
-    // Update this function 
-    // (hint: it will be similiar to the previous function)
+function updateResolution() {
+    // update this function
+    resolutionElement.innerText=resolution;
+}
 
+function updateWillmeetResolution() {
+    // update this function
+    willMeetResolutionElement.innerText=willMeetResolution;
 }
 
 function render() {
-    // Finish writing this function
-    updateBookSentence();
-
+    // update this function
+    updateYear();
+    updateResolution();
+    updatewillMeetResolution();
 }
 
 submissionBtn.addEventListener("click", function () {
-    // Calling the function that renders the update
-    // when the button is clicked
+    // update this function
     render();
-})
+});
